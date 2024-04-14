@@ -1,0 +1,108 @@
+#navbar {
+    background-color: rgb(21, 61, 31);
+    overflow: hidden;
+    display: flex;
+    border-bottom: white;
+    border-width: 2px;
+    border-style: solid;
+} 
+#adjust{
+    height: 65px;
+    width: 140px;
+}
+#navmenu{
+    overflow: hidden;
+}
+#news{
+    background-color:#43586e;
+    color:#ffffff;
+    border: groove;
+}
+#govUpdate{
+    height:600px;
+    width:85%;
+}
+.Earth{
+    width:30%;
+    height:35%;
+}
+#prepare{
+    background-color:#72c377;
+}
+#updates{
+    background-color: #4dc9ae;
+}
+#DisasterMore{
+    background-color: #eabd5b;
+}
+#extension{
+    background-color: rgb(251, 142, 109);
+}
+.Report{
+    background-color: rgb(252, 209, 109);
+}
+.intro{
+    margin: 10px;
+}
+#text{
+    size:20px;
+}
+.explain{
+    font-family: 'Playfair Display', serif;
+}
+#align{
+    text-align:center;
+}
+#but{
+    text-align:center;
+}
+/* .other{
+    display:none;
+} */
+#intro{
+    border-style: solid;
+    border-width: 5px;
+    border-color:#C9C4BF;
+    background-color:#BFC4C9;
+    color:#757373;
+}
+.Natural{
+    padding-top: 105px;
+    text-align: left;
+}
+
+#start{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.ncei.noaa.gov/sites/default/files/2018-08/billion-dollar-disasters-collage_1200x630.png");
+    color:rgb(32, 25, 54);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+#background{
+    background-image: linear-gradient(rgba(33, 32, 32, 0.5), rgba(21, 21, 21, 0.5)), url("https://png.pngtree.com/background/20210710/original/pngtree-game-esports-cyber-bar-black-cloud-natural-disaster-background-picture-image_1040473.jpg");
+    color:rgb(37, 28, 66);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#hide{
+    display:none;
+}
+#Examples{
+    border-bottom: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#box{
+    border: 3px solid white;
+    padding: 7px;
+}
+#Examples:hover + #hide{
+    display:contents;
+}
+
+
+
+
