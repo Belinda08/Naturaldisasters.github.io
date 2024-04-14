@@ -1,5 +1,4 @@
 #navbar {
-    background-color: rgb(21, 61, 31);
     overflow: hidden;
     display: flex;
     border-bottom: white;
@@ -7,8 +6,8 @@
     border-style: solid;
 } 
 #adjust{
-    height: 65px;
-    width: 140px;
+    height: 85px;
+    width: 160px;
 }
 #navmenu{
     overflow: hidden;
@@ -19,15 +18,15 @@
     border: groove;
 }
 #govUpdate{
-    height:600px;
-    width:85%;
+    height:700px;
+    width:900px;
 }
 .Earth{
     width:30%;
     height:35%;
 }
 #prepare{
-    background-color:#72c377;
+    background-color:#52d55b;
 }
 #updates{
     background-color: #4dc9ae;
@@ -41,12 +40,35 @@
 .Report{
     background-color: rgb(252, 209, 109);
 }
+/* #color{
+    color:aliceblue;
+} */
+/* #cloud{
+    margin-top: 50px;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFcNLvwqAhkhkdDOg0FBDQ8foSq-8PK3sPAA&usqp=CAU");
+    color:rgb(37, 28, 66);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+/* .hover{
+    padding: 5px;
+} */
 .intro{
     margin: 10px;
 }
 #text{
     size:20px;
 }
+/* #taylor{
+    color:rgb(255, 255, 255);
+}
+.taylorImg{
+    height:200px;
+    width:180px;
+} */
 .explain{
     font-family: 'Playfair Display', serif;
 }
@@ -56,9 +78,6 @@
 #but{
     text-align:center;
 }
-/* .other{
-    display:none;
-} */
 #intro{
     border-style: solid;
     border-width: 5px;
@@ -67,10 +86,10 @@
     color:#757373;
 }
 .Natural{
-    padding-top: 105px;
+    padding: 10px;
     text-align: left;
 }
-
+/* Whole background image for the natural disasters: https://png.pngtree.com/background/20210710/original/pngtree-game-esports-cyber-bar-black-cloud-natural-disaster-background-picture-image_1040473.jpg */
 #start{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.ncei.noaa.gov/sites/default/files/2018-08/billion-dollar-disasters-collage_1200x630.png");
     color:rgb(32, 25, 54);
@@ -94,10 +113,6 @@
     border-bottom: white;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-}
-#box{
-    border: 3px solid white;
-    padding: 7px;
 }
 #Examples:hover + #hide{
     display:contents;
